@@ -1,0 +1,80 @@
+@charset "utf-8";
+html {background:#454545 url(images/backRepeat.jpg)}
+body { background:url(images/bottomBar.png) repeat-x bottom; margin:0; padding:0}
+p, ul, li { color:#fff}
+a { color:#D5B25A; text-decoration:none}
+#omega { width:900px; margin:0 auto}
+#logo { background:url(images/logoBack.png); width: 610px; height:353px; position:absolute; margin:0 0 0 250px}
+#bigBeer { position:absolute; background:url(images/beerTop.png); width:490px; height:648px; margin:0 0 0 -90px; z-index:20}
+#address { position:absolute; margin:630px 0 0 26px; text-align:center; line-height:35px}
+#bar { background:url(images/bar01.png); width:800px; height:522px; margin:0 auto}
+#glasses div { cursor:pointer; outline:none}
+#glasses a, #glasses div { -webkit-tap-highlight-color: rgba(0,0,0,0)}
+#barText div {display:none}
+
+/* Google Map */
+#cm_sidebarDIV {line-height:140%}
+
+/* Menu Styles */
+#menu { position:absolute; width:500px; height:300px; margin:0 0 0 315px; font-family: 'Waiting for the Sunrise', cursive;}
+#menu ul li { background:url(images/menu.png) right; height:44px; list-style:none;
+	transition: all .25s linear;
+   -o-transition: all .25s linear;
+   -moz-transition: all .25s linear;
+   -webkit-transition: all .25s linear}
+#menu ul li:hover { margin:0 0 0 7px}
+#menu ul li#one { width:130px} #menu ul li#two { width:150px} #menu ul li#three { width:260px}
+#menu ul li#four { width:200px} #menu ul li#five { width:230px} #menu ul li#six { width:150px}
+#menu ul li a { margin:0 0 0 50px; color:#fff; text-decoration:none; font-size: 24px; font-weight:bold; z-index:25;  position:absolute}
+
+/* Call Outs */
+.callOut {
+	position:absolute;
+	background:url(images/arrowLtR.png) 270px 50px no-repeat;
+	padding:0; margin:-120px 0 0 -50px; width:310px; height:100px}
+.callOut2 {
+	position:absolute;
+	background:url(images/arrowRtL2.png) 205px 120px no-repeat ;
+	padding:0; margin:-70px 0 0 550px; width:290px; height:260px}
+
+/* Beer Finder */
+.c1Head {width:200px; margin:0; padding:0; text-align:center}
+.c2Head {width:250px; margin:0; padding:0; text-align:center}
+.c1 {width:200px; font-weight:bold; vertical-align:top; margin:0; padding:5px; color:#e79b2f}
+.c2 {vertical-align:top; margin:0; padding:5px}
+#demotable1 {background:none; color:white}
+.selectStyle select {
+	padding:2px; -webkit-appearance: none;  
+	color:#fff; width:210px; outline:none; border: none;  background: url("arrowR.gif") no-repeat scroll 147px 1px #833101; -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.selectStyle { background:#833101; width:178px; margin:0 0 20px 150px; overflow:hidden; border: dotted 2px #a95f32; -webkit-border-radius: 10px; -moz-border-radius: 10px; text-align:left}
+#filter_1 { visibility:hidden; display:none}
+#beerSearch { position:relative; min-height:300px; _height:300px; text-align:left}
+
+/* Font Styles */
+.sideText { width:450px; margin:280px 0 130px 405px; text-align:justify}
+.sideText p { font-size:17px}
+h1 {font-family: 'Waiting for the Sunrise', cursive; font-weight: 400; font-size:70px; color:#fff; margin:-20px 0}
+h2 {font-family: 'Waiting for the Sunrise', cursive; font-weight: 400; font-size:38px; color:#fff}
+h2.beerName { font-size:50px; font-weight:bold}
+h3 {font-family: 'Waiting for the Sunrise', cursive; font-weight: bold; font-size:36px; color:#fff; margin:0}
+.callOut h3 {font-size:53px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(-10deg); margin:0; font-weight:400}
+.callOut2 h3 {font-size:44px;-webkit-transform: rotate(30deg);-moz-transform: rotate(30deg); margin:0; font-weight:400}
+#barText {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-weight: 400; color:#fff;
+	width: 690px; height:200px; margin:240px 0 0 60px}
+#barText p { font-size:21px; margin:-45px 0 0 0}
+.twitterCoaster {position:absolute; width:66px; height:55px; margin:175px 0 0 644px}
+.facebookCoaster {position:absolute; width:66px; height:55px; margin:175px 0 0 713px}
+
+/* Beers on Tap */
+#bar {background:url(images/bottomBar2.png); position:relative}
+.beerGlass {position:absolute; width:130px; height:190px; padding:0;z-index:30; cursor:pointer; overflow:hidden; background:url(images/glasses.png);
+	transition: all .25s linear; -o-transition: all .25s linear; -moz-transition: all .25s linear; -webkit-transition: all .25s linear}
+/*Pilsner 0; golden -125; chickbock -245; IPA -368; Kolsch -505; Pale -628; Stout -750 */
+.b1 {margin:-5px 0 0 153px; background-position: 0 0 } /*Pilsner*/
+/*.b2 {margin:-5px 0 0 231px; background-position:-899px 0} Kolsch*/
+.b3 {margin:-5px 0 0 280px; background-position:-628px 0} /*Pale*/
+.b5 {margin:-5px 0 0 402px; background-position:-245px 0} /*Chickbock*/
+.b4 {margin:-5px 0 0 526px; background-position:-368px 0} /*IPA*/
