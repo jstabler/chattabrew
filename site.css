@@ -81,3 +81,36 @@ h3 {font-family: 'Waiting for the Sunrise', cursive; font-weight: bold; font-siz
 
 
 /*Mobile Section*/
+
+@media (min-device-width:1024px) and (max-width:989px),
+       screen and (max-device-width:480px),
+			 (max-device-width:480px) and (orientation:landscape),
+       (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait) 
+{
+	#omega {width:90%}
+	#bigBeer {display:none;}
+}
+
+@media (min-device-width:1024px) and (max-width:509px),(max-device-width:480px) and (orientation:portrait)
+{
+	.selectSec {display:block}
+	a.print{display:none}
+	#genSet td, #phone td {padding: 5px 5px}
+	#emailClient div p img { width:95%}
+	#remoteAnim {height:30%; width:30%; margin:-10px 0 5px 10px}
+	.colHide {display:none}
+}
+
+/* -- iPhone 4 -- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+#remoteAnim {height:200px; width:30%; margin:-10px 0 5px 10px}
+.colHide {display:none}}
+
+@media print
+{
+	.selectSec , #remoteAnim, a.print, a.button {display:none}
+	.mainSection {border:none}	
+	
+}
